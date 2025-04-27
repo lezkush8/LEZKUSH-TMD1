@@ -1,9 +1,9 @@
 {
-  "name":"Zokou-2.0",
+  "name":"𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳",
   "description":"bot whatsapp développé par djalega++",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/djalega8000/Zokou-2.0",
+  "logo":"https://files.catbox.moe/bsvq5j.jpg",
+  "repository":"https://github.com/lezkush8/lezkush-bot",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -28,7 +28,7 @@
     "NOM_BOT" : {
        
       "description":"Un nom pour votre bot",
-      "value":"Zokou-MD",
+      "value":"𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
       "required":false
 
     } ,
@@ -80,14 +80,14 @@
     
     "description": "Votre nom",
     "required": false,
-    "value": "Djalega++"
+    "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃"
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "255784766591"
   },
     
 
@@ -101,7 +101,7 @@
   {
     "description": "Mettez oui si vous voulez avoir le message du bot qu'il vous envoie en pv ou non si vous en voulez pas",
     "required": true,
-    "value": "oui"
+    "value": "hello"
   },
   "ANTI_DELETE_MESSAGE":
   {
