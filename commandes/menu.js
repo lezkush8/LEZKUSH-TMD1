@@ -41,12 +41,13 @@ const date = moment().format('DD/MM/YYYY');
 │   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │   *Plateforme* : ${os.platform()}
 │   *Développeurs* : Djalega++ 
-│  & M๏𝓷keℽ D Lบffy
-╰─────✧WA-BOT✧─────◆ \n\n`;
+│  & lezkush
+╰─────✧𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃✧─────◆ \n\n`;
     
 let menuMsg = `
 👋 salut ${nomAuteurMessage} 👋
 
+*𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 𝐂𝚯𝚳𝚳𝚫𝚴𝐃*
 *Voici la liste de mes commandes :*
 ◇                             ◇
 `;
@@ -66,7 +67,7 @@ let menuMsg = `
 *»»————— ★ —————««*
 Pour utiliser  une  commande, tapez  ${prefixe}"nom de la commande"
  
- powered by zokou-md
+ *powered by 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃*
                                                 
 *»»————— ★ —————««*
 `;
