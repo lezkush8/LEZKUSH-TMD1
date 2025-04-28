@@ -2143,10 +2143,10 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&width=435&lines=𝗠𝗔𝗗𝗘+𝗕𝗬+LEZKUSH-TMD+𝟮𝟬𝟮𝟱+𝗧𝗛𝗔𝗡𝗞𝗦)](https://git.io/typing-svg)
 
-<p align="center"><img src="https://files.catbox.moe/aktbgo.jpg" width="500"height="500" />
+<p align="center"><img src="https://files.catbox.moe/bsvq5j.jpg" width="500"height="500" />
 
 <p align="center">
-<a href="https://github.com/deshallos1/followers"><img title="Followers" src="https://img.shields.io/github/followers/RAHMANI-XMD?color=blue&style=flat-square"></a>
+<a href="https://github.com/deshallos1/followers"><img title="Followers" src="https://img.shields.io/github/followers/lezkush-bot?color=blue&style=flat-square"></a>
 <a href="https://github.com/lezkush8/lezkush-bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/lezkush8/lezkush-bot?color=blue&style=flat-square"></a>
 <a href="https://github.com/lezkush8/lezkush-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/lezkush8/lezkush-bot?color=blue&style=flat-square"></a>
 <a href="https://github.com/lezkush8/lezkush-bot/"><img title="Size" src="https://img.shields.io/github/repo-size/lezkush8/lezkush-bot?style=flat-square&color=blue"></a>
