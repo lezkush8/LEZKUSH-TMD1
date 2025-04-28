@@ -1,5 +1,5 @@
 {
-  "name": "RAHMANI-XMD",
+  "name": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
   "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
   "keywords": [
     "bot",
@@ -7,8 +7,8 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/aktbgo.jpg",
-  "repository": "https://github.com/Qartde/RAHMANI-XMD",
+  "logo": "https://files.catbox.moe/bsvq5j.jpg",
+  "repository": "https://github.com/lezkush8/lezkush-bot",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -74,7 +74,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "RAHMANI-XMD",
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -99,7 +99,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Rahmani Md",
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
       "required": false
     },
     "URL": {
@@ -114,7 +114,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '2547')",
-      "value": "255693629079",
+      "value": "255781766591",
       "required": false
     },
     "WARN_COUNT": {
