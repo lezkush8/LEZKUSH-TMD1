@@ -16,7 +16,7 @@ zokou(
   {
     nomCom: 'ping',
     categorie: 'General',
-    reaction: '🚴',
+    reaction: '🤔',
     alias: ['p']
   },
 
@@ -26,14 +26,14 @@ zokou(
     } = commandOptions;
     const start = new Date().getTime();
     const msg = await zk.sendMessage(dest, {
-      text: '*𝐚𝐥𝐰𝐚𝐲𝐬 𝐪𝐚𝐫𝐭.✍︎*',
+      text: '*timnasa creator*',
     }, {
       quoted: ms
     });
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `*𝚁𝙰𝙷𝙼𝙰𝙽𝙸+𝙼𝙳+𝚂𝙿𝙴𝙴𝙳+𝙸𝚂-𝟿𝟿𝟿𝟿..🤠*
+      text: `*.𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 ping is speed.999999999🤠*
  *${ping} ms*`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
