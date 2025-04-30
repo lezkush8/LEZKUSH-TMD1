@@ -12,7 +12,7 @@ zokou({
     prefixe: _0x1e90cb
   } = _0x2bf6f3;
   try {
-    const _0x3c1805 = ["```⚡ *RAHMANI-XMD*  Injecting malware⚡```", "```🔐 *RAHMANI-XMD*  into device \n 0%```", "```♻️ transfering photos \n █ 10%```", "```♻️ transfer successful \n █ █ 20%```", "```♻️ transfering videos \n █ █ █ 30%```","```♻️ transfer successful \n █ █ █ █ 40%```","```♻️ transfering audio \n █ █ █ █ █ 50%```","```♻️ transfer successful \n █ █ █ █ █ █ 60%```","```♻️ transfering hidden files \n █ █ █ █ █ █ █ 70%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ 80%```","```♻️ transfering whatsapp chat \n █ █ █ █ █ █ █ █ █ 90%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ █ █ 100%```","```📲 System hyjacking on process.. \n Conecting to Server```","```🔌 Device successfully connected... \n Recieving data...```","```💡 Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```","```🔋 HACKING COMPLETED```","```📤 SENDING PHONE DOCUMENTS```"];
+    const _0x3c1805 = ["```⚡ *𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃*  Injecting malware⚡```", "```🔐 *𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃*  into device \n 0%```", "```♻️ transfering photos \n █ 10%```", "```♻️ transfer successful \n █ █ 20%```", "```♻️ transfering videos \n █ █ █ 30%```","```♻️ transfer successful \n █ █ █ █ 40%```","```♻️ transfering audio \n █ █ █ █ █ 50%```","```♻️ transfer successful \n █ █ █ █ █ █ 60%```","```♻️ transfering hidden files \n █ █ █ █ █ █ █ 70%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ 80%```","```♻️ transfering whatsapp chat \n █ █ █ █ █ █ █ █ █ 90%```","```♻️ transfer successful \n █ █ █ █ █ █ █ █ █ █ 100%```","```📲 System hyjacking on process.. \n Conecting to Server```","```🔌 Device successfully connected... \n Recieving data...```","```💡 Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```","```🔋 HACKING COMPLETED```","```📤 SENDING PHONE DOCUMENTS```"];
     for (const _0x4c7ce1 of _0x3c1805) {
       try {
         await _0x988825(_0x4c7ce1);
@@ -38,7 +38,7 @@ zokou({
       }
     }
     try {
-      await _0x988825("😏 *VICTIM SYSTEM DEMOLISHED!* 🤔");
+      await _0x988825("😏 *𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 VICTIM SYSTEM DEMOLISHED!* 🤔");
     } catch (_0x34d0ce) {
       console.error("Error sending final message:", _0x34d0ce);
     }
