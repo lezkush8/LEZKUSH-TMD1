@@ -11,7 +11,7 @@ zokou({nomCom:"bot",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOption
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("oui je vous ecoute.")}
+    {return repondre("yes my brother how are you today.")}
     //var quest = arg.join(' ');
   try{
     
@@ -50,7 +50,7 @@ zokou({ nomCom: "lezkush", reaction: "📡", categorie: "IA" }, async (dest, zk,
 
   try {
     if (!arg || arg.length === 0) {
-      return repondre(`Veuillez entrer les informations nécessaires pour générer l'image.`);
+      return repondre(`yes 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 i'm here tell me.`);
     }
 
     // Regrouper les arguments en une seule chaîne séparée par "-"
@@ -58,7 +58,7 @@ zokou({ nomCom: "lezkush", reaction: "📡", categorie: "IA" }, async (dest, zk,
     const response = await axios.get(`https://vihangayt.me/tools/photoleap?q=${image}`);
     
     const data = response.data;
-    let caption = '*Propulsé par ZOKOU-MD*';
+    let caption = '*Propulsé par LEZKUSH-TMD*';
     
     if (data.status && data.owner && data.data) {
       // Utiliser les données retournées par le service
@@ -78,7 +78,7 @@ zokou({ nomCom: "gpt", reaction: "📡", categorie: "IA" }, async (dest, zk, com
 
   try {
     if (!arg || arg.length === 0) {
-      return repondre(`Veuillez poser une questions.`);
+      return repondre(`im gpt please ask your questions.`);
     }
 
     // Regrouper les arguments en une seule chaîne séparée par "-"
