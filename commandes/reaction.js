@@ -1,3 +1,4 @@
+
 const axios = require('axios');
 const { zokou } = require("../framework/zokou");
 const fs = require("fs-extra");
@@ -27,9 +28,9 @@ const GIFBufferToVideoBuffer = async (image) => {
     return buffer5;
 };
 
-const generateReactionCommand = (reactionName, reactionEmoji, commandName, action) => {
+const generateReactionCommand = (reactionName, reactionEmoji) => {
     zokou({
-        nomCom: commandName,
+        nomCom: reactionName,
         categorie: "Reaction",
         reaction: reactionEmoji,
     },
@@ -51,21 +52,21 @@ const generateReactionCommand = (reactionName, reactionEmoji, commandName, actio
 
             // Envoyer la vidéo avec Zokou
             if (msgRepondu) { 
-              var txt =` @${auteurMessage.split("@")[0]} a ${action} @${auteurMsgRepondu.split("@")[0]}`
+              var txt =` @${auteurMessage.split("@")[0]}  ${reactionName} @${auteurMsgRepondu.split("@")[0]}`
        zk.sendMessage(origineMessage, { video: videoBuffer,gifPlayback: true,caption:txt,mentions:[auteurMessage,auteurMsgRepondu] }, { quoted: ms });
     
             } else {
                 const videoMessage = {
                     video: videoBuffer,
                     gifPlayback: true,
-                    caption: `@${auteurMessage.split("@")[0]} s'est ${action} lui même.`,
+                    caption: `@${auteurMessage.split("@")[0]} ${reactionName} everyone`,
                     mentions: [auteurMessage]
                 };
                 zk.sendMessage(origineMessage, videoMessage, { quoted: ms });
             }
 
         } catch (error) {
-            repondre('Erreur lors de la récupération des données :' + error);
+            repondre('Error occurred while retrieving the data. :' + error);
             console.log(error);
         }
     });
@@ -74,30 +75,30 @@ const generateReactionCommand = (reactionName, reactionEmoji, commandName, actio
 // ... (utilisation de la fonction generateReactionCommand pour créer des commandes de réaction)
 
 
-generateReactionCommand("bully", "👊", "taquiner","taquiné(e)");
-generateReactionCommand("cuddle", "🤗", "caliner","caliné(e)");
-generateReactionCommand("cry", "😢", "pleurer","pleuré(e) pour");
-generateReactionCommand("hug", "😊", "calin","fait un calin");
-generateReactionCommand("awoo", "🐺", "awoo","awoo");
-generateReactionCommand("kiss", "😘", "embrasser","embrassé(e)");
-generateReactionCommand("lick", "👅", "lecher","leché(e)");
-generateReactionCommand("pat", "👋","tapoter", "tapoté(e)");
-generateReactionCommand("smug", "😏", "malice","fait un sourire malicieux a");
-generateReactionCommand("bonk", "🔨", "bonk","bonk");
-generateReactionCommand("yeet", "🚀", "lancer","jetté(e)");
-generateReactionCommand("blush", "😊", "rougir","rougi(e) à");
-generateReactionCommand("smile", "😄", "sourire","fait un sourire à");
-generateReactionCommand("wave", "👋", "saluer","salué(e)");
-generateReactionCommand("highfive", "✋", "tope-la","fait un top-la à");
-generateReactionCommand("handhold", "🤝", "tenir","tenu(e)");
-generateReactionCommand("nom", "🍴", "manger","mangé(e)");
-generateReactionCommand("bite", "🦷", "mordre","mordu(e)");
-generateReactionCommand("glomp", "🤗", "enlacer","enlacé(e)");
-generateReactionCommand("slap", "👋", "gifler","giflé(e)");
-generateReactionCommand("kill", "💀", "tuer","tué(e)");
-generateReactionCommand("kick", "🦵", "pied","donné(e) un coup de pied a");
-generateReactionCommand("happy", "😄", "heureux","l'air heureux pour");
-generateReactionCommand("wink", "😉", "clin","a fait un clin d'œil à");
-generateReactionCommand("poke", "👉", "pousser","pousser");
-generateReactionCommand("dance", "💃", "danser","dansé pour");
-generateReactionCommand("cringe", "😬", "cringe","a l'air cringe pour");
+generateReactionCommand("bully", "👊");
+generateReactionCommand("cuddle", "🤗");
+generateReactionCommand("cry", "😢");
+generateReactionCommand("hug", "😊");
+generateReactionCommand("awoo", "🐺");
+generateReactionCommand("kiss", "😘");
+generateReactionCommand("lick", "👅");
+generateReactionCommand("pat", "👋");
+generateReactionCommand("smug", "😏");
+generateReactionCommand("bonk", "🔨");
+generateReactionCommand("yeet", "🚀");
+generateReactionCommand("blush", "😊");
+generateReactionCommand("smile", "😄");
+generateReactionCommand("wave", "👋");
+generateReactionCommand("highfive");
+generateReactionCommand("handhold");
+generateReactionCommand("nom","👅" );
+generateReactionCommand("bite", "🦷");
+generateReactionCommand("glomp", "🤗");
+generateReactionCommand("slap", "👋");
+generateReactionCommand("kill", "💀");
+generateReactionCommand("kick", "🦵");
+generateReactionCommand("happy", "😄");
+generateReactionCommand("wink", "😉");
+generateReactionCommand("poke", "👉");
+generateReactionCommand("dance", "💃");
+generateReactionCommand("cringe", "😬");
