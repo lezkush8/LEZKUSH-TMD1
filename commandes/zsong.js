@@ -1,10 +1,10 @@
 
-const { ezra } = require("../fredi/ezra;
+const { zonku } = require("../framework/zoku;
 const axios = require('axios');
 const ytSearch = require('yt-search');
 
 // Define the command with aliases
-ezra({
+zoku({
   nomCom: "song",
   aliases: ["musicdoc", "ytmp3doc", "audiodoc", "mp3doc"],
   categorie: "Music",
