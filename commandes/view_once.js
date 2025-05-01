@@ -1,10 +1,10 @@
-const { adams } = require('../Ibrahim/adams');
+const { zokou } = require('../framework/zokou');
 const axios = require("axios")
 let { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
-const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("../lib/banUser");
-const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("../lib/banGroup");
-const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("../lib/onlyAdmin");
-const {removeSudoNumber,addSudoNumber,issudo} = require("../lib/sudo");
+const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("../framework/banUser");
+const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("../framework/banGroup");
+const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("../framework/onlyAdmin");
+const {removeSudoNumber,addSudoNumber,issudo} = require("../framework/sudo");
 //const conf = require("../set");
 //const fs = require('fs');
 const sleep =  (ms) =>{
@@ -13,7 +13,7 @@ const sleep =  (ms) =>{
   } ;
 
 
-  adams({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "hidetag2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
@@ -94,7 +94,7 @@ const sleep =  (ms) =>{
     }
   });
 
-adams({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "crew2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, auteurMessage, superUser, auteurMsgRepondu, msgRepondu } = commandeOptions;
 
   if (!superUser) { repondre("only modds can use this command"); return };
@@ -110,7 +110,7 @@ adams({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) =
 
 });
 
-adams({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "left2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
   if (!verifGroupe) { repondre("group only"); return };
@@ -122,7 +122,7 @@ adams({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) =
   await zk.groupLeave(dest)
 });
 
-adams({ nomCom: "join", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "join2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
 
@@ -140,7 +140,7 @@ adams({ nomCom: "join", categorie: "Mods" }, async (dest, zk, commandeOptions) =
 })
 
 
-adams({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "jid2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -159,7 +159,7 @@ adams({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
 
   
 
-adams({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "block2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -175,7 +175,7 @@ adams({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) 
                 jid = dest
 
                  await zk.updateBlockStatus(jid, "block")
-    .then( repondre('succes')) 
+    .then( repondre('succes timnasa blocked')) 
               } else {
                 jid = auteurMsgRepondu
              await zk.updateBlockStatus(jid, "block")
@@ -183,7 +183,7 @@ adams({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) 
 
   });
 
-adams({ nomCom: "unblock", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "unblock2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -206,7 +206,7 @@ adams({ nomCom: "unblock", categorie: "Mods" }, async (dest, zk, commandeOptions
   
     });
 
-adams({ nomCom: "kickall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "kickall2", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
 
   const { auteurMessage ,ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser,prefixe } = commandeOptions
 
@@ -241,8 +241,8 @@ await zk.groupParticipantsUpdate(
 }
 });
 
-adams({
-    nomCom: 'ban',
+zokou({
+    nomCom: 'ban2',
     categorie: 'Mods',
 }, async (dest, zk, commandeOptions) => {
 
@@ -290,8 +290,8 @@ adams({
 
 
 
-adams({
-    nomCom: 'bangroup',
+zokou({
+    nomCom: 'bangroup2',
     categorie: 'Mods',
 }, async (dest, zk, commandeOptions) => {
 
@@ -338,8 +338,8 @@ adams({
 });
 
 
-adams({
-  nomCom: 'onlyadmin',
+zokou({
+  nomCom: 'onlyadmin2',
   categorie: 'Group',
 }, async (dest, zk, commandeOptions) => {
 
@@ -385,8 +385,8 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
 } else { repondre('You are not entitled to this order')}
 });
 
-adams({
-  nomCom: 'sudo',
+zokou({
+  nomCom: 'sudo2',
   categorie: 'Mods',
 }, async (dest, zk, commandeOptions) => {
 
@@ -434,7 +434,7 @@ if (!superUser) {repondre('This command is only allowed to the bot owner') ; ret
 });
 
 
-adams({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "save1", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { repondre , msgRepondu , superUser, auteurMessage } = commandeOptions;
   
@@ -517,7 +517,7 @@ adams({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
   })
 ;
 
-adams({ nomCom: "vv2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "vv2", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { repondre , msgRepondu , superUser, auteurMessage } = commandeOptions;
   
@@ -600,7 +600,7 @@ adams({ nomCom: "vv2", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
   })
 ;
 
-adams({ nomCom: "vv", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "vv3", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { repondre, msgRepondu, superUser } = commandeOptions;
 
@@ -655,8 +655,8 @@ adams({ nomCom: "vv", categorie: "Mods" }, async (dest, zk, commandeOptions) => 
   }
 });
 
-adams({
-  nomCom : 'mention',
+zokou({
+  nomCom : 'mention2',
   categorie : 'Mods',
 } , async (dest,zk,commandeOptions) => {
 
