@@ -11,9 +11,9 @@ zokou({
   nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
   const { repondre, prefixe } = commandeOptions;
-  const githubRepo = 'https://api.github.com/repos/pkdriller/QUEEN-M';
-  const thumbnailImg = 'https://files.catbox.moe/vm9usm.jpeg';
-  const channelThumbnail = 'https://files.catbox.moe/4nt2ds.jpeg';
+  const githubRepo = 'https://github.com/lezkush8/lezkush-bot';
+  const thumbnailImg = 'https://files.catbox.moe/bsvq5j.jpg';
+  const channelThumbnail = 'https://files.catbox.moe/bsvq5j.jpg';
 
   try {
     // Fetch repository data
@@ -35,14 +35,14 @@ zokou({
 
     // Enhanced cage design with channel information
     const gitdata = `
-╭━━━〔 *Queen-M* 〕━━━┈⊷
+╭━━━〔 *𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ *Prefix : [ ${prefixe} ]*
 ┃★│ *Baileys : Multi Device*
 ┃★│ *Type : NodeJs*
 ┃★│ *Platform : Heroku*
 ┃★│ *Version : 1.0*
-┃★│ *Owner : PkDriller*
+┃★│ *Owner : 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 
@@ -63,15 +63,15 @@ zokou({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "Queen-M",
+          newsletterName: "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
           serverMessageId: -1,
         },
         forwardingScore: 999,
         externalAdReply: {
-          title: "Queen-M",
+          title: "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
           body: "Next Generation",
           thumbnailUrl: channelThumbnail,
-          sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
+          sourceUrl: 'https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31',
           mediaType: 1,
           renderLargerThumbnail: true
         }
