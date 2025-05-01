@@ -2,7 +2,7 @@ const {zokou}=require("../framework/zokou")
 
 
 
-zokou({nomCom:"voir",categorie:"Général",reaction:"🤲🏿"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"timnasa",categorie:"Général",reaction:"🤲🏿"},async(dest,zk,commandeOptions)=>{
 
 const {ms,msgRepondu,repondre}=commandeOptions;
 
