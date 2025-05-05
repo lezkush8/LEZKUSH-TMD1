@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo2", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -34,27 +34,27 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-          *😘RAHZAYN-MD😘 BOT INFO* 
+          *𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 BOT INFO* 
 ❒───────────────────❒
 
 *GITHUB LINK*
-> https://github.com/Qartde/RAHMANI-XMD
+> https://github.com/lezkush8/lezkush-bot
 
 *CONTACT OWNER*
-> https://wa.me/255693629079
+> https://wa.me/255784766591
 
 *WHATSAPP CHANNEL*
->https://whatsapp.com/channel/0029VatokI45EjxufALmY32X
+>https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31
 ⁠
 ╭───────────────────❒
  │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
- │❒⁠⁠⁠⁠ *DEV1* : *Rahmani-Md*
- │❒⁠⁠⁠⁠ *DEV2* : *Rahmani-Md*
+ │❒⁠⁠⁠⁠ *DEV1* : *𝚻𝚰𝚳𝚴𝚫𝐒𝚫-𝚻𝚳𝐃*
+ │❒⁠⁠⁠⁠ *DEV2* : *𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-         *POWERED BY RAHMANI-XMD*
+         *ᵖᵒʷᵉʳ ᵇʸ ˡᵉᶻᵏᵘˢʰ*
 
 ❒───────────────────❒`;
 
@@ -62,7 +62,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *ᵗⁱᵐⁿᵃˢᵃ ᵗᵉᶜʰ*, déveloper  ᵗⁱᵐⁿᵃˢᵃ ᵗᵉᶜʰ" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🤫🤫 Menu erreur " + e);
@@ -72,7 +72,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *ᵗⁱᵐⁿᵃˢᵃ ᵗᵉᶜʰ*, déveloper ᵗⁱᵐⁿᵃˢᵃ ᵗᵉᶜʰ" }, { quoted: ms });
     }
     catch (e) {
         console.log("🤫🤫 Menu erreur " + e);
