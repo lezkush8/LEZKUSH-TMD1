@@ -24,7 +24,7 @@ zokou({
       'image': {
         'url': _0x93b128
       },
-      'caption': "*powered by RAHMANI MD*"
+      'caption': "*powered by LEZKUSH-TMD*"
     }, {
       'quoted': _0x4eb9fe
     });
