@@ -5,7 +5,7 @@ const axios = require("axios");
 const Genius = require("genius-lyrics");
 const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
 zokou({
-  'nomCom': 'poll',
+  'nomCom': 'pollpo',
   'reaction': '💠',
   'categorie': "General"
 }, async (_0x30c4fc, _0x12f9f4, _0x257571) => {
@@ -31,9 +31,9 @@ zokou({
   });
 });
 zokou({
-  'nomCom': 'fact',
+  'nomCom': 'factor',
   'reaction': '👌',
-  'categorie': 'User'
+  'categorie': '𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃'
 }, async (_0x3c85fa, _0xe0dd81, _0x20339c) => {
   const {
     repondre: _0x12e23a,
@@ -42,7 +42,7 @@ zokou({
   } = _0x20339c;
   const _0x5754a8 = await fetch("https://nekos.life/api/v2/fact");
   const _0x21e127 = await _0x5754a8.json();
-  _0x12e23a(" *RAHMANI-MD FACT MESSAGE* \n*💠* " + _0x21e127.fact + "\n\n\n\n\n*©Rahmani Md*\n\n╔═════◇\n║◇ *RAHMANI MD*\n╚════════════════════>  ");
+  _0x12e23a(" *𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 FACT MESSAGE* \n*💠* " + _0x21e127.fact + "\n\n\n\n\n*©Rahmani Md*\n\n╔═════◇\n║◇ *RAHMANI MD*\n╚════════════════════>  ");
 });
 zokou({
   'nomCom': "quote",
