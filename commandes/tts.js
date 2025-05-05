@@ -3,8 +3,8 @@ const {zokou} = require("../framework/zokou");
 
 
 zokou( {
-  nomCom : "dit",
- categorie : "User",
+  nomCom : "lezdit",
+ categorie : "Lezkush-user",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
@@ -26,8 +26,8 @@ console.log(url);
 ) ;
 
 zokou( {
-  nomCom : "itta",
- categorie : "User",
+  nomCom : "lezitta",
+ categorie : "Lezkush-user",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
@@ -49,8 +49,8 @@ console.log(url);
 ) ;
 
 zokou( {
-  nomCom : "say",
- categorie : "User",
+  nomCom : "lezsay",
+ categorie : "Lezkush-user",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
