@@ -38,7 +38,7 @@ zokou({
         'caption': "Enjoy the view",
         'contextInfo': {
           'externalAdReply': {
-            'title': "Rahmani-Md",
+            'title': "LEZKUSH-TMD",
             'body': "Here's the image you searched for: " + _0x2d6871,
             'thumbnailUrl': _0x54f9fa[_0xf62d6].url,
             'sourceUrl': conf.GURL,
@@ -53,7 +53,7 @@ zokou({
   }
 });
 zokou({
-  'nomCom': "waifues",
+  'nomCom': "waifues1",
   'categorie': "Hentai",
   'reaction': '💗'
 }, async (_0x376a4f, _0x5b78d8, _0x1f7067) => {
@@ -72,7 +72,7 @@ zokou({
         'caption': "Enjoy the view",
         'contextInfo': {
           'externalAdReply': {
-            'title': "Rahmani-Md",
+            'title': "LEZKUSH-TMD",
             'body': "Here's a great image related to: waifu",
             'thumbnailUrl': _0x4859df,
             'sourceUrl': conf.GURL,
@@ -108,7 +108,7 @@ zokou({
         'caption': "Enjoy the view",
         'contextInfo': {
           'externalAdReply': {
-            'title': "Rahmani-Md",
+            'title': "LEZKUSH-TMD",
             'body': "Here's a great image related to: waifu",
             'thumbnailUrl': _0x557942,
             'sourceUrl': conf.GURL,
@@ -125,7 +125,7 @@ zokou({
   }
 });
 zokou({
-  'nomCom': "neko",
+  'nomCom': "neko1",
   'categorie': "Hentai",
   'reaction': '💗'
 }, async (_0x506093, _0x3a048e, _0x2c5289) => {
@@ -144,7 +144,7 @@ zokou({
         'caption': "Enjoy the view",
         'contextInfo': {
           'externalAdReply': {
-            'title': "Rahmani-Md",
+            'title': "LEZKUSH-TMD",
             'body': "Here's a great image related to: waifu",
             'thumbnailUrl': _0x48dd46,
             'sourceUrl': conf.GURL,
@@ -161,7 +161,7 @@ zokou({
   }
 });
 zokou({
-  'nomCom': "girls",
+  'nomCom': "gir",
   'categorie': "Hentai",
   'reaction': '💗'
 }, async (_0x7b6528, _0x36d13b, _0x513a8c) => {
@@ -180,7 +180,7 @@ zokou({
         'caption': "Enjoy the view",
         'contextInfo': {
           'externalAdReply': {
-            'title': "Rahmani-Md",
+            'title': "LEZKUSH-TMD",
             'body': "Here's a great image related to: waifu",
             'thumbnailUrl': _0x35d7d7,
             'sourceUrl': conf.GURL,
