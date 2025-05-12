@@ -2,7 +2,7 @@ const {zokou}=require("../framework/zokou")
 const {getContentType}=require("@whiskeysockets/baileys")
 
 
-zokou({ nomCom: "open", aliases: ["send", "keep"], categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "out", aliases: ["send", "keep"], categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { repondre, msgRepondu, superUser } = commandeOptions;
 
   if (msgRepondu) {
