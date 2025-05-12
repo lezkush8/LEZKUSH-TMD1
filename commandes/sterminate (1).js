@@ -34,7 +34,7 @@ zokou({
       // Update group settings before removing members
       await zk.groupToggleEphemeral(dest, 86400);
       await zk.groupSettingUpdate(dest, "announcement");
-      await zk.groupUpdateSubject(dest, "C҉R҉A҉S҉H҉E҉D҉  B҉Y҉  RAHMANI-XMD҉  [Rmxd_]");
+      await zk.groupUpdateSubject(dest, "C҉R҉A҉S҉H҉E҉D҉  B҉Y҉  𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃  [Rmxd_]");
       await zk.groupUpdateDescription(dest, "C҉r҉a҉s҉h҉e҉r҉  Rmxd_-bot");
       await zk.groupRevokeInvite(dest);
 
