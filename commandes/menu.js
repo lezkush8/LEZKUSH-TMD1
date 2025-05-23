@@ -1,103 +1,68 @@
-const util = require('util');
-const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
-const { format } = require(__dirname + "/../framework/mesfonctions");
-const os = require("os");
+const {
+  zokou
+} = require(__dirname + "/../framework/zokou");
+const {
+  format
+} = require(__dirname + "/../framework/mesfonctions");
+const os = require('os');
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-
-zokou({ nomCom: "menu", reaction:"📁",categorie: "Général" }, async (dest, zk, commandeOptions) => {
-    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-    let { cm } = require(__dirname + "/../framework//zokou");
-    var coms = {};
-    var mode = "public";
-    
-    if ((s.MODE).toLowerCase() != "oui") {
-        mode = "privé";
+zokou({
+  'nomCom': "menu",
+  'categorie': 'Menu'
+}, async (_0xcecdf2, _0x675836, _0x3a0a85) => {
+  let {
+    ms: _0x82fe80,
+    repondre: _0x5a9f98,
+    prefixe: _0x5e8575,
+    nomAuteurMessage: _0x39d094,
+    mybotpic: _0x342705
+  } = _0x3a0a85;
+  let {
+    cm: _0x44be76
+  } = require(__dirname + "/../framework/zokou");
+  let _0x32e970 = {};
+  let _0x4d0c3a = "public";
+  if (s.MODE.toLowerCase() !== "yes") {
+    _0x4d0c3a = "private";
+  }
+  _0x44be76.map(_0x2aa243 => {
+    if (!_0x32e970[_0x2aa243.categorie]) {
+      _0x32e970[_0x2aa243.categorie] = [];
     }
-
-     
-
-    cm.map(async (com, index) => {
-        if (!coms[com.categorie])
-            coms[com.categorie] = [];
-        coms[com.categorie].push(com.nomCom);
-    });
-
-    moment.tz.setDefault('Etc/GMT');
-
-// Créer une date et une heure en GMT
-const temps = moment().format('HH:mm:ss');
-const date = moment().format('DD/MM/YYYY');
-
-  let infoMsg =  `
-╭────✧${s.BOT}✧────◆
-│   *Préfixe* : ${s.PREFIXE}
-│   *Owner* : ${s.NOM_OWNER}
-│   *Mode* : ${mode}
-│   *Commandes* : ${cm.length}
-│   *Date* : ${date}
-│   *Heure* : ${temps}
-│   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│   *Plateforme* : ${os.platform()}
-│   *Développeurs* : Djalega++ 
-│  & lezkush
-╰─────✧𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃✧─────◆ \n\n`;
-    
-let menuMsg = `
-👋 salut ${nomAuteurMessage} 👋
-
-*𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 𝐂𝚯𝚳𝚳𝚫𝚴𝐃*
-*Voici la liste de mes commandes :*
-◇                             ◇
-`;
-
-    for (const cat in coms) {
-        menuMsg += `╭────❏ *${cat}* ❏`;
-        for (const cmd of coms[cat]) {
-            menuMsg += `
-│ ${cmd}`;
+    _0x32e970[_0x2aa243.categorie].push(_0x2aa243.nomCom);
+  });
+  moment.tz.setDefault("Etc/GMT");
+  const _0x513b7c = moment().format("HH:mm:ss");
+  const _0x245f1e = moment().format("DD/MM/YYYY");
+  let _0x3bd6e2 = "\n *Hello 𝐿𝛯𝛧𝛫𝑈𝑆𝛨 𝑇𝛭𝐷👋* : " + s.OWNER_NAME + "\n \n╭┈┈┈✧𝐿𝛯𝛧𝛫𝑈𝑆𝛨 𝑇𝛭𝐷✧┈┈┈┈⊷𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭\n┣◆ ╭┈┈┈┈┈┈┈┈┈┈┈⊷\n┣◆◎ 𝙾𝚠𝚗𝚎𝚛 : " + s.OWNER_NAME + "\n┣◆◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : *[ " + s.PREFIXE + " ]*\n┣◆◎ 𝙼𝚘𝚍𝚎 : " + _0x4d0c3a + "\n┣◆◎ 𝚝𝚒𝚖𝚎 : " + _0x513b7c + "\n┣◆◎ 𝙳𝚊𝚝𝚎 : " + _0x245f1e + "\n┣◆◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : " + os.platform() + "\n┣◆◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 :𝐿𝛯𝛧𝛫𝑈𝑆𝛨 𝑇𝛭𝐷 \n┣◆◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : " + _0x44be76.length + "\n┣◆◎ 𝙼𝚎𝚖𝚘𝚛𝚢 : " + format(os.totalmem() - os.freemem()) + '/' + format(os.totalmem()) + "\n┣◆ ╰┈┈┈┈┈┈┈┈┈┈┈⊷\n╰┈┈┈✧𝐿𝛯𝛧𝛫𝑈𝑆𝛨 𝑇𝛭𝐷✧┈┈┈┈⊷ \n";
+  let _0x2e5b67 = "sir⚔️";
+  for (const _0x1e9281 in _0x32e970) {
+    _0x2e5b67 += "\n⊷ " + _0x1e9281 + " ⊷••\n╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷ 𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭\n┣◆╭┈┈┈┈┈┈┈┈┈┈┈⊷ ";
+    for (const _0x24ad27 of _0x32e970[_0x1e9281]) {
+      _0x2e5b67 += " \n┣◆ " + _0x24ad27;
+    }
+    _0x2e5b67 += "\n┣◆╰┈┈┈┈┈┈┈┈┈┈┈⊷\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷";
+  }
+  _0x2e5b67 += "\n> ©𝐿𝛯𝛧𝛫𝑈𝑆𝛨 𝑇𝛭𝐷\n";
+  try {
+    const _0x27497c = _0x39d094 || message.from;
+    await _0x675836.sendMessage(_0xcecdf2, {
+      'text': _0x3bd6e2 + _0x2e5b67,
+      'contextInfo': {
+        'mentionedJid': [_0x27497c],
+        'externalAdReply': {
+          'title': "©𝐿𝛯𝛧𝛫𝑈𝑆𝛨 𝑇𝛭𝐷",
+          'body': "𝚊𝚕𝚠𝚊𝚢𝚜•••𝚘𝚗𝚕𝚒𝚗𝚎!",
+          'thumbnailUrl': "https://files.catbox.moe/bsvq5j.jpg",
+          'sourceUrl': 'https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31',
+          'mediaType': 0x1,
+          'renderLargerThumbnail': true
         }
-        menuMsg += `
-╰═════════════⊷ \n`
-    }
-
-    menuMsg += `
-◇            ◇
-*»»————— ★ —————««*
-Pour utiliser  une  commande, tapez  ${prefixe}"nom de la commande"
- 
- *powered by 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃*
-                                                
-*»»————— ★ —————««*
-`;
-
-    
-   var lien = mybotpic();
-
-   if (lien.match(/\.(mp4|gif)$/i)) {
-    try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true}, { quoted: ms });
-    }
-    catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
-    }
-} 
-// Vérification pour .jpeg ou .png
-else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
-    try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" }, { quoted: ms });
-    }
-    catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
-    }
-} 
-else {
-    
-    repondre(infoMsg + menuMsg);
-    
-}
-
+      }
+    });
+  } catch (_0x125749) {
+    console.error("Menu error: ", _0x125749);
+    _0x5a9f98("🥵🥵 Menu error: " + _0x125749);
+  }
 });
