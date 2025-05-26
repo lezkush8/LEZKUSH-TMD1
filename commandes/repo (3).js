@@ -41,7 +41,7 @@ const date = moment().format('DD/MM/YYYY');
 > https://github.com/lezkush8/lezkush-bot
 
 *CONTACT OWNER*
-> https://wa.me/255784766591
+> https://wa.me/96878856800
 
 *WHATSAPP CHANNEL*
 >https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31
