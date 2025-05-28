@@ -705,7 +705,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         const metadata = await zk.groupMetadata(group.id);
 
-        if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'yes')) {
+        if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
             let msg = `*ʟᴇᴢᴋᴜsʜ ᴛᴍᴅ1 ᴡᴇʟᴄᴏᴍᴇ ɢʀᴏᴜᴘ ᴍᴇssᴀɢᴇ*`;
             let membres = group.participants;
             for (let membre of membres) {
@@ -715,7 +715,7 @@ zk.ev.on('group-participants.update', async (group) => {
             msg += `➣➣➣➣ *𝑅𝛯𝛥𝐷 𝑇𝛨𝛯 𝐺𝑅𝛩𝑈𝛲 𝐷𝛯𝑆𝐶𝑅𝛪𝛲𝑇𝛪𝛩𝛮 𝑇𝛩 𝛥𝛻𝛩𝛪𝐷 𝐺𝛯𝑇𝑇𝛪𝛮𝐺 𝑅𝛯𝛭𝛩𝛻𝛯𝐷 𝑌𝛩𝑈😂* `;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
-        } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'yes')) {
+        } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
             let msg = `one or somes member(s) left group;\n`;
 
             let membres = group.participants;
