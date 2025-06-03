@@ -1,5 +1,5 @@
 {
-  "name": "TIMNASA-TMD",
+  "name": "LEZKUSH-TMD",
   "description": "timnasa-tech Whatsapp device bot made by timotheomgya to help Whatsapp users to enjoy while helping...",
   "keywords": [
     "bot",
@@ -7,8 +7,8 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/r4djgj.png",
-  "repository": "https://github.com/timnasax/TIMNASA_TMD",
+  "logo": "https://files.catbox.moe/bsvq5j.jpg",
+  "repository": "https://github.com/lezkush8/lezkush-bot",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -36,7 +36,7 @@
     "AUTO_REACT_STATUS": {
       "description": "Your contact status will be react automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTO_BIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
@@ -62,21 +62,21 @@
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
       "value": "VIEW YOUR STATUS SUCCESSFUL 😇✅✅",
-      "required": false
+      "required": true
     },
     "AUTO_STATUS_REPLY": {
       "description": "type your genuine status message",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTI_CALL_TEXT": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
       "value": "Now i'm buys",
-      "required": false
+      "required": true
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "TIMNASA-TMD1",
+      "value": "LEZKUSH TMD",
       "required": false 
     },
     "CHAT_BOT": {
@@ -91,7 +91,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
-      "value": "TIMNASA-TMD1",
+      "value": "LEZKUSH TMD",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -106,17 +106,17 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "timnasa-tech",
-      "required": false
+      "value": "Lezkush",
+      "required": true
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/r4djgj.png",
+      "value": "https://files.catbox.moe/bsvq5j.jpg",
       "required": true
     },
     "URL2": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/r4djgj.png",
+      "value": "https://files.catbox.moe/bsvq5j.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -127,7 +127,7 @@
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255774766591')",
       "value": "255784766591",
-      "required": false
+      "required": true
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
@@ -147,12 +147,12 @@
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "ANTI_CALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
-      "required": false
+      "value": "no",
+      "required": true
     },
     "AUTO_BLOCK": {
       "description": "Type true if you want bot to automatically  block those who spam your dm ",
@@ -162,7 +162,7 @@
     "AUTO_REACTION": {
       "description": "Set 'yes' to enable bot reactions to messages in private chats",
       "value": "no",
-      "required": false
+      "required": true
     }
   },
   "formation": {
