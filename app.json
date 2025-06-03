@@ -74,7 +74,7 @@
     },
     "CHAT_BOT": {
       "description": "Enable chat bot",
-      "value": "on",
+      "value": "no",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -114,7 +114,7 @@
     },
     "CHATBOT": {
       "description": "Enable chatbot",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUDIO_CHATBOT": {
