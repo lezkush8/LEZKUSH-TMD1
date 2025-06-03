@@ -119,7 +119,7 @@
     },
     "AUDIO_CHATBOT": {
       "description": "Enable audio chatbot",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "GURL": {
