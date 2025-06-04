@@ -1,0 +1,182 @@
+{
+  "name": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
+  "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
+  "keywords": [
+    "bot",
+    "node",
+    "baileys",
+    "whatsapp"
+  ],
+  "logo": "https://files.catbox.moe/bsvq5j.jpg",
+  "repository": "https://github.com/lezkush8/lezkush-bot",
+  "succes_url": "/",
+  "stack": "container",
+  "env": {
+    "PREFIX": {
+      "description": "Choose your bot's prefix",
+      "value": ".",
+      "required": true
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Your contact status will be read automatically",
+      "value": "yes",
+      "required": false
+    },
+    "AUDIO_REPLY": {
+      "description": "Enter yes for your bot to auto reply audio in all chats",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_REPLY": {
+      "description": "Auto reply to private messages",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_REACT_STATUS": {
+      "description": "React to contact statuses automatically",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_BIO": {
+      "description": "Automatically update your bio using OWNER_NAME",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_SAVE_CONTACTS": {
+      "description": "Auto save new contacts",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Auto download contact statuses",
+      "value": "no",
+      "required": false
+    },
+    "PM_PERMIT": {
+      "description": "Restrict bot usage in private messages",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_STATUS_TEXT": {
+      "description": "Status message text",
+      "value": "viewed ✅✅",
+      "required": false
+    },
+    "AUTO_STATUS_REPLY": {
+      "description": "Auto reply to status messages",
+      "value": "no",
+      "required": false
+    },
+    "ANTI_CALL_TEXT": {
+      "description": "Message when a call is declined",
+      "value": "My owner don't receive any call now because it's busy",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Your bot's name",
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "Public or private bot mode",
+      "value": "yes",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API key",
+      "value": "HRKU-21f94f36-4701-4c14-8c77-e3f0d998fea8",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku app name",
+      "value": "",
+      "required": true
+    },
+    "SESSION_ID": {
+      "description": "Session ID from QR code",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Bot owner's name",
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
+      "required": false
+    },
+    "URL": {
+      "description": "Bot image URL",
+      "value": "https://files.catbox.moe/aktbgo.jpg",
+      "required": true
+    },
+    "AUTO_READ_MESSAGES": {
+      "description": "Auto read messages",
+      "value": "no",
+      "required": false
+    },
+    "NUMERO_OWNER": {
+      "description": "Your phone number",
+      "value": "+96878856800",
+      "required": false
+    },
+    "WARN_COUNT": {
+      "description": "Warning limit before action",
+      "value": "5",
+      "required": false
+    },
+    "STARTING_BOT_MESSAGE": {
+      "description": "Show bot starting message",
+      "value": "no",
+      "required": true
+    },
+    "PRESENCE": {
+      "description": "Bot presence: 1=online, 2=typing, 3=recording",
+      "value": "2",
+      "required": false
+    },
+    "ANTI_DELETE_MESSAGE": {
+      "description": "Enable anti-delete messages",
+      "value": "yes",
+      "required": false
+    },
+    "ANTI_CALL": {
+      "description": "Auto decline incoming calls",
+      "value": "off",
+      "required": false
+    },
+    "AUTO_BLOCK": {
+      "description": "Auto block DM spammers",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_REACTION": {
+      "description": "React to private messages",
+      "value": "no",
+      "required": false
+    },
+    "CHATBOT": {
+      "description": "Enable smart AI chatbot in chats",
+      "value": "no",
+      "required": false
+    },
+    "ANTILINK_GROUP": {
+      "description": "Detect and delete group links (yes/no)",
+      "value": "yes",
+      "required": false
+    },
+    "AUDIO_CHATBOT": {
+      "description": "Enable voice-based chatbot responses",
+      "value": "no",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
