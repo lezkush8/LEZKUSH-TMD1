@@ -1,5 +1,5 @@
 {
-  "name": "𝑇𝛪𝛭𝛮𝛥𝑆𝛥-𝑇𝛭𝐷 𝛭𝑈𝐿𝑇𝛪𝛲𝐿𝛯 𝐷𝛯𝛻𝛪𝐶𝛯",
+  "name": "LEZKUSH 𝛭𝑈𝐿𝑇𝛪𝛲𝐿𝛯 𝐷𝛯𝛻𝛪𝐶𝛯",
   "description": "ᴛɪᴍɴᴀsᴀ ᴡʜᴀᴛsᴀᴘᴘ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛɪᴍɴᴀsᴀᴛɪᴍᴏᴛʜ ᴛᴏ ʜᴇʟᴘ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀs ᴛᴏ ᴇɴᴊᴏʏ ᴡʜɪʟᴇ ʜᴇʟᴘɪɴɢ......",
   "keywords": [
     "bot",
@@ -7,8 +7,8 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/yg0pb3.jpg",
-  "repository": "https://github.com/Next5x/TIMNASA_TMD1",
+  "logo": "https://files.catbox.moe/b61h87.jpg",
+  "repository": "https://github.com/lezkush8/lezkush-bot",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -76,7 +76,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠𝚻𝚰𝚳𝚴𝚫𝐒𝚫-𝚻𝚳𝐃✧",
+      "value": "✧⁠LEZKUSH✧",
       "required": false 
     },
     "CHAT_BOT": {
@@ -91,7 +91,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
-      "value": "𝚻𝚰𝚳𝚴𝚫𝐒𝚫-𝚻𝚳𝐃",
+      "value": "LEZKUSH",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -106,12 +106,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "𝚻𝚰𝚳𝚴𝚫𝐒𝚫-𝚻𝚳𝐃",
+      "value": "LEZKUSH",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/yg0pb3.jpg",
+      "value": "https://files.catbox.moe/b61h87.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -121,12 +121,12 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255756469954",
+      "value": "255784766591",
       "required": false
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
-      "value": "5",
+      "value": "3",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
@@ -156,7 +156,7 @@
     },
     "AUTO_REACTION": {
       "description": "Set 'yes' to enable bot reactions to messages in private chats",
-      "value": "no",
+      "value": "yes",
       "required": false
     }
   },
