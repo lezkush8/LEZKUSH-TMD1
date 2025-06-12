@@ -1,5 +1,5 @@
 {
-  "name": "LEZKUSH 𝛭𝑈𝐿𝑇𝛪𝛲𝐿𝛯 𝐷𝛯𝛻𝛪𝐶𝛯",
+  "name": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 𝛭𝑈𝐿𝑇𝛪𝛲𝐿𝛯 𝐷𝛯𝛻𝛪𝐶𝛯",
   "description": "ᴛɪᴍɴᴀsᴀ ᴡʜᴀᴛsᴀᴘᴘ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛɪᴍɴᴀsᴀᴛɪᴍᴏᴛʜ ᴛᴏ ʜᴇʟᴘ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀs ᴛᴏ ᴇɴᴊᴏʏ ᴡʜɪʟᴇ ʜᴇʟᴘɪɴɢ......",
   "keywords": [
     "bot",
@@ -20,13 +20,13 @@
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
-      "required": false
+      "required": true
     },
       "AUDIO_REPLY":
     {
       "description":"Enter yes for your bot to auto reply audio in all chats",
       "value":"yes",
-      "required":false
+      "required":true
     },
     "AUTO_REPLY": {
       "description": "when enabled it automatically sends  auto reply message to members in your pm",
@@ -71,18 +71,18 @@
     },
     "ANTI_CALL_TEXT": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "hello my name ist timnasa now i'm busy",
-      "required": false
+      "value": "hello my name ist lezkush now i'm busy",
+      "required": true
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠LEZKUSH✧",
+      "value": "✧⁠𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃✧",
       "required": false 
     },
     "CHAT_BOT": {
       "description": "urs if you want bot to chat automatic",
-      "value": "yes",
-      "required": false
+      "value": "no",
+      "required": true
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
@@ -91,7 +91,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
-      "value": "LEZKUSH",
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -106,7 +106,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "LEZKUSH",
+      "value": "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
       "required": false
     },
     "URL": {
@@ -142,11 +142,11 @@
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
       "value": "no",
-      "required": false
+      "required": true
     },
     "ANTI_CALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_BLOCK": {
