@@ -27,9 +27,9 @@ zokou(
       },
       externalAdReply: {
         title: "Movie Finder",
-        body: "Powered by ALONE MD V²",
+        body: "Powered by LEZKUSH",
         thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
-        sourceUrl: "https://github.com/Zokou1/ALONE-MD",
+        sourceUrl: "httpshttps://github.com/lezkush8/lezkush-bo",
         mediaType: 1,
         renderLargerThumbnail: false,
       },
@@ -123,7 +123,7 @@ zokou({
                 serverMessageId: 143,
               },
         externalAdReply: {
-          title: "ALONE MD VIDEO DOWNLOADER",
+          title: "lezkush MD VIDEO DOWNLOADER",
           body: "Enjoy using ALONE MD",
           thumbnailUrl: conf.URL,
           mediaType: 1,
@@ -148,7 +148,7 @@ zokou({
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363295141350550@newsletter",
-                newsletterName: "ALONE Queen MD V²",
+                newsletterName: "lezkush V²",
                 serverMessageId: 143,
               },
         externalAdReply: {
@@ -253,14 +253,14 @@ zokou({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363295141350550@newsletter',
-          newsletterName: 'ALONE Queen MD V²',
+          newsletterName: 'lezkush',
           serverMessageId: 143
         },
         externalAdReply: {
-          title: "🎵 ALONE MD LYRICS FINDER",
-          body: "Powered by ALONE MD V²",
+          title: "🎵 lezkush LYRICS FINDER",
+          body: "Powered by lezkush V²",
           thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
-          sourceUrl: "https://github.com/Zokou1/ALONE-MD",
+          sourceUrl: "https://github.com/lezkush8/lezkush-bot",
           mediaType: 1,
           renderLargerThumbnail: false,
         },
@@ -344,7 +344,7 @@ zokou({
 
 
 zokou({
-  nomCom: "play",
+  nomCom: "playx",
   aliases: ["song", "ytmp3", "audio", "mp3"],
   categorie: "Search",
   reaction: "⬇️",
