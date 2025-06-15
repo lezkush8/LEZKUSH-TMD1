@@ -1,1 +1,438 @@
-const _0xfbfbf3=_0x29c1;(function(_0x5229d0,_0x57e938){const _0x3a9512=_0x29c1,_0x5402a2=_0x5229d0();while(!![]){try{const _0x3f5078=parseInt(_0x3a9512(0xf0))/(-0x1*-0x1d09+0x14db+-0x31e3)*(parseInt(_0x3a9512(0x12d))/(0x1d*0xa7+-0x1c1*0x3+-0xda6))+-parseInt(_0x3a9512(0x168))/(0x1*-0x23b6+0x14ec+0xecd)+-parseInt(_0x3a9512(0x108))/(-0x11ea*0x2+0x1*-0x1b2b+0x351*0x13)+-parseInt(_0x3a9512(0xf1))/(0x240+0x1758+-0x1*0x1993)+parseInt(_0x3a9512(0x11c))/(-0x1997+0x6a8*0x1+0x12f5)+parseInt(_0x3a9512(0x10f))/(0x197a+-0x1b7*0x1+-0x17bc)*(parseInt(_0x3a9512(0x144))/(0x24fd*0x1+-0xb+-0x24ea))+parseInt(_0x3a9512(0x146))/(-0xf17*0x1+0x1*0x48f+0x21d*0x5);if(_0x3f5078===_0x57e938)break;else _0x5402a2['push'](_0x5402a2['shift']());}catch(_0x5cee0d){_0x5402a2['push'](_0x5402a2['shift']());}}}(_0x55c8,0x41731+-0x16a709+0x1ef03*0x10));const {zokou}=require(_0xfbfbf3(0x15d)+_0xfbfbf3(0x126)),axios=require(_0xfbfbf3(0x13d)),ytSearch=require(_0xfbfbf3(0x114)),conf=require(__dirname+_0xfbfbf3(0x115)),getContextInfo=(_0x258510='',_0x297ad1='',_0x4f4404='')=>({'mentionedJid':[_0x297ad1],'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0xfbfbf3(0x14d)+_0xfbfbf3(0x122)+_0xfbfbf3(0x13f),'newsletterName':_0xfbfbf3(0x12e),'serverMessageId':Math[_0xfbfbf3(0x127)](0x2*-0x11554+0x3172+-0x7ffa*-0x7+Math[_0xfbfbf3(0x13e)]()*(0x1*-0x42ba6+-0x1286df+0x246e25))},'externalAdReply':{'showAdAttribution':!![],'title':conf[_0xfbfbf3(0x130)]||_0xfbfbf3(0x153)+_0xfbfbf3(0x140),'body':_0x258510||_0xfbfbf3(0x11d)+_0xfbfbf3(0x156),'thumbnailUrl':_0x4f4404||conf[_0xfbfbf3(0x106)]||'','sourceUrl':conf[_0xfbfbf3(0x128)]||'','mediaType':0x1,'renderLargerThumbnail':![]}});async function searchYouTube(_0x47c5af){const _0x3f0f6c=_0xfbfbf3,_0x145c42={'yEMEg':function(_0x468872,_0x3e559e){return _0x468872(_0x3e559e);},'BsDfy':_0x3f0f6c(0x15f)+_0x3f0f6c(0x149)+_0x3f0f6c(0x157)+_0x3f0f6c(0x11b),'iGDRy':_0x3f0f6c(0x15c)+_0x3f0f6c(0x154)+':'};try{const _0x1822f9=await _0x145c42[_0x3f0f6c(0x131)](ytSearch,_0x47c5af);if(!_0x1822f9?.[_0x3f0f6c(0x15a)]?.[_0x3f0f6c(0xf9)])throw new Error(_0x145c42[_0x3f0f6c(0xe5)]);return _0x1822f9[_0x3f0f6c(0x15a)][-0x2*0x26b+-0x126e+-0xba2*-0x2];}catch(_0x430ee7){console[_0x3f0f6c(0x16b)](_0x145c42[_0x3f0f6c(0xe6)],_0x430ee7);throw new Error(_0x3f0f6c(0x15c)+_0x3f0f6c(0x116)+_0x3f0f6c(0x100)+_0x430ee7[_0x3f0f6c(0x14b)]);}}async function downloadFromApis(_0x29f64a){const _0x22e759=_0xfbfbf3,_0x227b53={'RUfRQ':_0x22e759(0x151)+_0x22e759(0x158)+_0x22e759(0x150)+_0x22e759(0x16e)+_0x22e759(0x105)};for(const _0x4aaca1 of _0x29f64a){try{const _0x2a933e=await axios[_0x22e759(0x112)](_0x4aaca1,{'timeout':0x3a98});if(_0x2a933e[_0x22e759(0xfc)]?.[_0x22e759(0x125)])return _0x2a933e[_0x22e759(0xfc)];}catch(_0x3a62e0){console[_0x22e759(0xea)](_0x22e759(0x110)+_0x4aaca1+_0x22e759(0x16a),_0x3a62e0[_0x22e759(0x14b)]);continue;}}throw new Error(_0x227b53[_0x22e759(0x16d)]);}function _0x55c8(){const _0x4903b2=['NbNxW','SVgvN','𝚻𝚳𝐃\x20DOWNLO','aynPk','vide\x20a\x20son','d/ytmp3?ur','yJYYq','film','join','wWjvO','id/downloa','axios','random','ewsletter','wnloader','te/downloa','audio/mpeg','vide\x20a\x20vid','261248WyODzP','i.dreaded.','15687954GdGqmg','https://ww','ailed:\x20','ound\x20for\x20t','ADING\x20AUDI','message','*\x20(Documen','1203633454','ADING\x20VIDE','&apikey=gi','ownload\x20UR','Failed\x20to\x20','videodoc','YouTube\x20Do','arch\x20error','jTCWY','loader','he\x20specifi','retrieve\x20d','phPfo','videos','eo\x20name.','YouTube\x20se','../framewo','i.giftedte','No\x20video\x20f','result','play','w.dark-yas','ch.web.id/','playdoc','rl=','ZoiTP','g\x20name.','2130009QnlTdO','Video\x20down','\x20failed:','error','fhLkP','RUfRQ','L\x20from\x20all','load\x20error','fted-md','WNIBq','site/api/y','📁\x20*','BsDfy','iGDRy','i.davidcyr','.mp3','url=','warn','YVwgG','replace','🎥\x20*','video','DAvHa','1dtyziY','6704630kImcKV','vwmie','tdl/video?','d/ytmp4?ur','iya-api.si','api/downlo','VLoHm','iltech.my.','length','🎵\x20*','LtUcQ','data','download','ad/dlmp4?u','ad/dlmp3?u','d:\x20','video/mp4','sendMessag','audio','🍼\x20*𝐋𝚵𝚭𝐊𝐔𝐒𝚮\x20','\x20sources.','URL','url','4109808OrurGD','song','audio/mp4','tdl/audio?','kIyQW','.mp4','oTDSD','231uekyYc','API\x20','Audio\x20down','get','O*...','yt-search','/../set','arch\x20faile','Download\x20f','Downloadin','Please\x20pro','UkrnQ','ed\x20query.','790140NWxmwJ','Media\x20Down','PbWCB','NsDDb','cEkyI','OnSKa','07274799@n','sSjyv','mp4','success','rk/zokou','floor','GURL','gRwKB','mp3','thumbnail','TIOMI','1874066IcWmfA','𝐋𝚵𝚭𝐊𝐔𝐒𝚮\x20𝚻𝚳𝐃','https://ap','BOT','yEMEg'];_0x55c8=function(){return _0x4903b2;};return _0x55c8();}function _0x29c1(_0x519015,_0x252aaa){const _0x2cd8b9=_0x55c8();return _0x29c1=function(_0x24e335,_0x3e6c38){_0x24e335=_0x24e335-(-0x1e4d*-0x1+-0x1eb*-0xb+-0x3281);let _0x41bc35=_0x2cd8b9[_0x24e335];return _0x41bc35;},_0x29c1(_0x519015,_0x252aaa);}zokou({'nomCom':_0xfbfbf3(0x161),'aliases':[_0xfbfbf3(0x109),_0xfbfbf3(0x164),_0xfbfbf3(0x103),_0xfbfbf3(0x12a)],'categorie':_0xfbfbf3(0xfd),'reaction':'🎸'},async(_0x46123e,_0x14ad1a,_0x2ee1ed)=>{const _0x1d94bb=_0xfbfbf3,_0x160d1d={'PbWCB':function(_0x37eaf0,_0x1bf615,_0x50565c,_0x464820,_0x202827){return _0x37eaf0(_0x1bf615,_0x50565c,_0x464820,_0x202827);},'DAvHa':_0x1d94bb(0x119)+_0x1d94bb(0x136)+_0x1d94bb(0x167),'kIyQW':function(_0x63ff4e,_0x4d6cf1){return _0x63ff4e(_0x4d6cf1);},'NsDDb':_0x1d94bb(0x104)+_0x1d94bb(0x134)+_0x1d94bb(0x14a)+_0x1d94bb(0x113),'sSjyv':function(_0x4d2325,_0x569014,_0x1b54a9,_0x18377d){return _0x4d2325(_0x569014,_0x1b54a9,_0x18377d);},'cEkyI':_0x1d94bb(0x118)+'g','LtUcQ':function(_0x5d2a09,_0x390a29){return _0x5d2a09(_0x390a29);},'WNIBq':function(_0x491454,_0x1f4a2c){return _0x491454(_0x1f4a2c);},'UkrnQ':function(_0x2fc918,_0x4e95b6){return _0x2fc918(_0x4e95b6);},'TIOMI':function(_0x2e7229,_0x5cbb4f){return _0x2e7229(_0x5cbb4f);},'OnSKa':_0x1d94bb(0x10a),'ZoiTP':_0x1d94bb(0x142),'fhLkP':_0x1d94bb(0x111)+_0x1d94bb(0x16f)+':'},{arg:_0x34cbb1,ms:_0x5a9eaa,userJid:_0x16c0df}=_0x2ee1ed;try{if(!_0x34cbb1[0x61e+0x1*0xe5f+-0x147d])return _0x160d1d[_0x1d94bb(0x11e)](repondre,_0x14ad1a,_0x46123e,_0x5a9eaa,_0x160d1d[_0x1d94bb(0xef)]);const _0x26b391=_0x34cbb1[_0x1d94bb(0x13a)]('\x20'),_0x1c20b7=await _0x160d1d[_0x1d94bb(0x10c)](searchYouTube,_0x26b391);await _0x14ad1a[_0x1d94bb(0x102)+'e'](_0x46123e,{'text':_0x160d1d[_0x1d94bb(0x11f)],'contextInfo':_0x160d1d[_0x1d94bb(0x123)](getContextInfo,_0x160d1d[_0x1d94bb(0x120)],_0x16c0df,_0x1c20b7[_0x1d94bb(0x12b)])},{'quoted':_0x5a9eaa});const _0xc4f0b5=[_0x1d94bb(0x12f)+_0x1d94bb(0xe7)+_0x1d94bb(0xf8)+_0x1d94bb(0x13c)+_0x1d94bb(0x137)+'l='+_0x160d1d[_0x1d94bb(0xfb)](encodeURIComponent,_0x1c20b7[_0x1d94bb(0x107)]),_0x1d94bb(0x147)+_0x1d94bb(0x162)+_0x1d94bb(0xf5)+_0x1d94bb(0x141)+_0x1d94bb(0x137)+'l='+_0x160d1d[_0x1d94bb(0x171)](encodeURIComponent,_0x1c20b7[_0x1d94bb(0x107)]),_0x1d94bb(0x12f)+_0x1d94bb(0x15e)+_0x1d94bb(0x163)+_0x1d94bb(0xf6)+_0x1d94bb(0xff)+_0x1d94bb(0x165)+_0x160d1d[_0x1d94bb(0x10c)](encodeURIComponent,_0x1c20b7[_0x1d94bb(0x107)])+(_0x1d94bb(0x14f)+_0x1d94bb(0x170)),_0x1d94bb(0x12f)+_0x1d94bb(0x145)+_0x1d94bb(0x172)+_0x1d94bb(0x10b)+_0x1d94bb(0xe9)+_0x160d1d[_0x1d94bb(0x11a)](encodeURIComponent,_0x1c20b7[_0x1d94bb(0x107)])],_0x4446ff=await _0x160d1d[_0x1d94bb(0x12c)](downloadFromApis,_0xc4f0b5),{download_url:_0x543549,title:_0x46aaeb}=_0x4446ff[_0x1d94bb(0x160)],_0x20534e=[{'audio':{'url':_0x543549},'mimetype':_0x160d1d[_0x1d94bb(0x121)],'caption':_0x1d94bb(0xfa)+_0x46aaeb+'*','contextInfo':_0x160d1d[_0x1d94bb(0x123)](getContextInfo,_0x46aaeb,_0x16c0df,_0x1c20b7[_0x1d94bb(0x12b)])},{'document':{'url':_0x543549},'mimetype':_0x160d1d[_0x1d94bb(0x166)],'fileName':(_0x46aaeb+_0x1d94bb(0xe8))[_0x1d94bb(0xec)](/[^\w\s.-]/gi,''),'caption':_0x1d94bb(0x173)+_0x46aaeb+(_0x1d94bb(0x14c)+'t)'),'contextInfo':_0x160d1d[_0x1d94bb(0x123)](getContextInfo,_0x46aaeb,_0x16c0df,_0x1c20b7[_0x1d94bb(0x12b)])}];for(const _0x4c7a63 of _0x20534e){await _0x14ad1a[_0x1d94bb(0x102)+'e'](_0x46123e,_0x4c7a63,{'quoted':_0x5a9eaa});}}catch(_0x357695){console[_0x1d94bb(0x16b)](_0x160d1d[_0x1d94bb(0x16c)],_0x357695),_0x160d1d[_0x1d94bb(0x11e)](repondre,_0x14ad1a,_0x46123e,_0x5a9eaa,_0x1d94bb(0x117)+_0x1d94bb(0x148)+_0x357695[_0x1d94bb(0x14b)]);}}),zokou({'nomCom':_0xfbfbf3(0xee),'aliases':[_0xfbfbf3(0x152),_0xfbfbf3(0x139),_0xfbfbf3(0x124)],'categorie':_0xfbfbf3(0xfd),'reaction':'🎬'},async(_0x377d94,_0x465ef0,_0x148c35)=>{const _0x264504=_0xfbfbf3,_0x1a8422={'VLoHm':function(_0x307ab8,_0x3db999,_0x4e31a6,_0x6b0047,_0x566729){return _0x307ab8(_0x3db999,_0x4e31a6,_0x6b0047,_0x566729);},'gRwKB':_0x264504(0x119)+_0x264504(0x143)+_0x264504(0x15b),'SVgvN':function(_0x2ba224,_0x4ac876){return _0x2ba224(_0x4ac876);},'jTCWY':_0x264504(0x104)+_0x264504(0x134)+_0x264504(0x14e)+_0x264504(0x113),'phPfo':function(_0x2631db,_0x49bec8,_0x2a76ef,_0x3315b1){return _0x2631db(_0x49bec8,_0x2a76ef,_0x3315b1);},'vwmie':_0x264504(0x118)+'g','aynPk':function(_0x2a11b6,_0x4c9b91){return _0x2a11b6(_0x4c9b91);},'oTDSD':function(_0x2d975d,_0x5dfbfc){return _0x2d975d(_0x5dfbfc);},'YVwgG':_0x264504(0x101),'wWjvO':function(_0x48768d,_0x5a5273,_0x2aff68,_0x174be5){return _0x48768d(_0x5a5273,_0x2aff68,_0x174be5);},'yJYYq':_0x264504(0x169)+_0x264504(0x16f)+':','NbNxW':function(_0x44e59d,_0x26f8b1,_0x57ae79,_0x39be60,_0x36671f){return _0x44e59d(_0x26f8b1,_0x57ae79,_0x39be60,_0x36671f);}},{arg:_0x23f31d,ms:_0x3748bd,userJid:_0x46b664}=_0x148c35;try{if(!_0x23f31d[0x1400+0x1*-0x19dc+-0x1*-0x5dc])return _0x1a8422[_0x264504(0xf7)](repondre,_0x465ef0,_0x377d94,_0x3748bd,_0x1a8422[_0x264504(0x129)]);const _0xd64eb4=_0x23f31d[_0x264504(0x13a)]('\x20'),_0x4ca720=await _0x1a8422[_0x264504(0x133)](searchYouTube,_0xd64eb4);await _0x465ef0[_0x264504(0x102)+'e'](_0x377d94,{'text':_0x1a8422[_0x264504(0x155)],'contextInfo':_0x1a8422[_0x264504(0x159)](getContextInfo,_0x1a8422[_0x264504(0xf2)],_0x46b664,_0x4ca720[_0x264504(0x12b)])},{'quoted':_0x3748bd});const _0x304ee0=[_0x264504(0x12f)+_0x264504(0xe7)+_0x264504(0xf8)+_0x264504(0x13c)+_0x264504(0xf4)+'l='+_0x1a8422[_0x264504(0x133)](encodeURIComponent,_0x4ca720[_0x264504(0x107)]),_0x264504(0x147)+_0x264504(0x162)+_0x264504(0xf5)+_0x264504(0x141)+_0x264504(0xf4)+'l='+_0x1a8422[_0x264504(0x135)](encodeURIComponent,_0x4ca720[_0x264504(0x107)]),_0x264504(0x12f)+_0x264504(0x15e)+_0x264504(0x163)+_0x264504(0xf6)+_0x264504(0xfe)+_0x264504(0x165)+_0x1a8422[_0x264504(0x10e)](encodeURIComponent,_0x4ca720[_0x264504(0x107)])+(_0x264504(0x14f)+_0x264504(0x170)),_0x264504(0x12f)+_0x264504(0x145)+_0x264504(0x172)+_0x264504(0xf3)+_0x264504(0xe9)+_0x1a8422[_0x264504(0x133)](encodeURIComponent,_0x4ca720[_0x264504(0x107)])],_0x380408=await _0x1a8422[_0x264504(0x135)](downloadFromApis,_0x304ee0),{download_url:_0x50b9ff,title:_0x5e9cb6}=_0x380408[_0x264504(0x160)],_0x2a716f=[{'video':{'url':_0x50b9ff},'mimetype':_0x1a8422[_0x264504(0xeb)],'caption':_0x264504(0xed)+_0x5e9cb6+'*','contextInfo':_0x1a8422[_0x264504(0x159)](getContextInfo,_0x5e9cb6,_0x46b664,_0x4ca720[_0x264504(0x12b)])},{'document':{'url':_0x50b9ff},'mimetype':_0x1a8422[_0x264504(0xeb)],'fileName':(_0x5e9cb6+_0x264504(0x10d))[_0x264504(0xec)](/[^\w\s.-]/gi,''),'caption':_0x264504(0x173)+_0x5e9cb6+(_0x264504(0x14c)+'t)'),'contextInfo':_0x1a8422[_0x264504(0x13b)](getContextInfo,_0x5e9cb6,_0x46b664,_0x4ca720[_0x264504(0x12b)])}];for(const _0x350613 of _0x2a716f){await _0x465ef0[_0x264504(0x102)+'e'](_0x377d94,_0x350613,{'quoted':_0x3748bd});}}catch(_0x53705e){console[_0x264504(0x16b)](_0x1a8422[_0x264504(0x138)],_0x53705e),_0x1a8422[_0x264504(0x132)](repondre,_0x465ef0,_0x377d94,_0x3748bd,_0x264504(0x117)+_0x264504(0x148)+_0x53705e[_0x264504(0x14b)]);}});
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
+const ytSearch = require("yt-search");
+const ytdl = require("ytdl-core");
+const fs = require("fs");
+const path = require("path");
+const conf = require("../set");
+
+
+zokou(
+  {
+    nomCom: "movie1",
+    aliases: ["gtmovie", "mvdl"],
+    categorie: "Search",
+    reaction: "🎬",
+  },
+  async (jid, sock, data) => {
+    const { arg, ms } = data;
+
+    const contextInfo = {
+      forwardingScore: 999,
+      isForwarded: true,
+      forwardedNewsletterMessageInfo: {
+        newsletterJid: "120363295141350550@newsletter",
+        newsletterName: "ALONE Queen MD V²",
+        serverMessageId: 143,
+      },
+      externalAdReply: {
+        title: "Movie Finder",
+        body: "Powered by ALONE MD V²",
+        thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
+        sourceUrl: "https://github.com/Zokou1/ALONE-MD",
+        mediaType: 1,
+        renderLargerThumbnail: false,
+      },
+    };
+
+    const repondre = async (text) => {
+      return sock.sendMessage(
+        jid,
+        {
+          text,
+          contextInfo,
+        },
+        { quoted: ms }
+      );
+    };
+
+    if (!arg[0]) return repondre("❌ Please provide a movie title.");
+
+    const query = arg.join(" ");
+    await repondre("🔍 Searching for movie and trailer...");
+
+    const apiKey = "38f19ae1"; // Replace with process.env.OMDB_API_KEY in production
+
+    try {
+      const searchRes = await axios.get(`http://www.omdbapi.com/?s=${encodeURIComponent(query)}&apikey=${apiKey}`);
+      const searchData = searchRes.data;
+
+      if (searchData.Response === "False") return repondre(`❌ Movie not found: ${searchData.Error}`);
+
+      const movieID = searchData.Search[0].imdbID;
+      const detailsRes = await axios.get(`http://www.omdbapi.com/?i=${movieID}&apikey=${apiKey}`);
+      const movie = detailsRes.data;
+
+      if (movie.Response === "False") return repondre(`❌ Error fetching movie details: ${movie.Error}`);
+
+      const ytResult = await ytSearch(`${movie.Title} trailer`);
+      const trailer = ytResult.videos.find((v) => v.seconds <= 240); // max 4 min
+
+      if (!trailer) return repondre("❌ No trailer found on YouTube.");
+
+      const trailerInfo = await ytdl.getInfo(trailer.url);
+      const format = ytdl.chooseFormat(trailerInfo.formats, { quality: "18" });
+
+      if (!format || !format.contentLength) return repondre("❌ No downloadable video format available.");
+
+      const sizeMB = parseInt(format.contentLength, 10) / (1024 * 1024);
+      if (sizeMB > 100) return repondre("❌ Trailer is too large (over 100MB).");
+
+      await sock.sendMessage(
+        jid,
+        {
+          video: { stream: ytdl(trailer.url, { quality: "18" }) },
+          caption: `🎬 *${movie.Title}* (${movie.Year})\n⭐ *IMDb:* ${movie.imdbRating}/10\n\n📖 *Plot:* ${movie.Plot}`,
+          contextInfo: {
+            forwardingScore: 999,
+            isForwarded: true,
+            externalAdReply: {
+              title: movie.Title,
+              body: "Watch the trailer",
+              thumbnailUrl: movie.Poster !== "N/A" ? movie.Poster : "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
+              sourceUrl: `https://www.imdb.com/title/${movie.imdbID}`,
+              mediaType: 1,
+              renderLargerThumbnail: true,
+            },
+          },
+        },
+        { quoted: ms }
+      );
+    } catch (err) {
+      console.error("Movie trailer error:", err);
+      return repondre("❌ An error occurred. Please try again.");
+    }
+  }
+);
+zokou({
+  nomCom: "playvideo",
+  aliases: ["video", "ytvideo", "ytmp4","getmovie", "moviedl","movie"],
+  categorie: "Search",
+  reaction: "🎬",
+}, async (jid, sock, data) => {
+  const { arg, ms } = data;
+
+  const repondre = async (text) => {
+    await sock.sendMessage(jid, {
+      text,
+      contextInfo: {forwardingScore: 999,
+              isForwarded: true,
+              forwardedNewsletterMessageInfo: {
+                newsletterJid: "120363295141350550@newsletter",
+                newsletterName: "ALONE Queen MD V²",
+                serverMessageId: 143,
+              },
+        externalAdReply: {
+          title: "ALONE MD VIDEO DOWNLOADER",
+          body: "Enjoy using ALONE MD",
+          thumbnailUrl: conf.URL,
+          mediaType: 1,
+          renderLargerThumbnail: false,
+        },
+      },
+    }, { quoted: ms });
+  };
+
+  if (!Array.isArray(arg) || !arg.length) return repondre("Please provide a video name.");
+  const query = arg.join(" ");
+
+  try {
+    const results = await ytSearch(query);
+    if (!results || !results.videos.length) return repondre("No video found for the specified query.");
+    const video = results.videos[0];
+    const videoUrl = video.url;
+
+    await sock.sendMessage(jid, {
+      text: "```Downloading video...```",
+      contextInfo: {forwardingScore: 999,
+              isForwarded: true,
+              forwardedNewsletterMessageInfo: {
+                newsletterJid: "120363295141350550@newsletter",
+                newsletterName: "ALONE Queen MD V²",
+                serverMessageId: 143,
+              },
+        externalAdReply: {
+          title: video.title,
+          body: "Searching YouTube...",
+          thumbnailUrl: video.thumbnail,
+          sourceUrl: videoUrl,
+          mediaType: 1,
+          renderLargerThumbnail: false,
+        },
+      },
+    }, { quoted: ms });
+
+    const apiUrls = [
+      `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://www.dark-yasiya-api.site/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`,
+      `https://youtube-download-api.matheusishiyama.repl.co/mp4/?url=${encodeURIComponent(videoUrl)}`,
+    ];
+
+    let response;
+    for (let url of apiUrls) {
+      try {
+        console.log("Trying API:", url);
+        const res = await axios.get(url);
+        console.log("Response:", JSON.stringify(res.data));
+        const link = res.data?.result?.download_url || res.data?.result?.link || res.data?.link;
+        if (link) {
+          response = {
+            title: res.data?.result?.title || res.data?.title || video.title,
+            link,
+            thumbnail: res.data?.result?.thumbnail || res.data?.thumbnail || video.thumbnail,
+          };
+          break;
+        }
+      } catch (e) {
+        console.log("API failed:", url, e.message);
+      }
+    }
+
+    // Final fallback using ytdl-core
+    if (!response) {
+      try {
+        const info = await ytdl.getInfo(videoUrl);
+        const format = ytdl.chooseFormat(info.formats, { quality: '18' }); // 360p mp4
+        if (format && format.url) {
+          response = {
+            title: info.videoDetails.title,
+            link: format.url,
+            thumbnail: info.videoDetails.thumbnails?.pop()?.url,
+          };
+        }
+      } catch (err) {
+        console.error("ytdl-core fallback failed:", err);
+      }
+    }
+
+    if (!response || !response.link) {
+      return repondre("All sources failed. Try again later.");
+    }
+
+    await sock.sendMessage(jid, {
+      video: { url: response.link },
+      caption: response.title,
+      mimetype: "video/mp4",
+      contextInfo: {
+        externalAdReply: {
+          title: response.title,
+          body: "Tap to watch on YouTube",
+          mediaType: 1,
+          showAdAttribution: false,
+          forwardingScore: 999,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363295141350550@newsletter',
+            newsletterName: 'ALONE  MD V²',
+            serverMessageId: 143
+          }
+        },
+      },
+    }, { quoted: ms });
+
+  } catch (err) {
+    console.error("Video Download Error:", err);
+    return repondre("Video download failed: " + (err.message || err));
+  }
+});
+
+zokou({
+  nomCom: "lyrics",
+  aliases: ["ly", "songlyrics", "lyric"],
+  categorie: "Search",
+  reaction: "📝",
+}, async (jid, sock, data) => {
+  const { arg, ms } = data;
+
+  const repondre = async (text) => {
+    await sock.sendMessage(jid, {
+      text,
+      contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363295141350550@newsletter',
+          newsletterName: 'ALONE Queen MD V²',
+          serverMessageId: 143
+        },
+        externalAdReply: {
+          title: "🎵 ALONE MD LYRICS FINDER",
+          body: "Powered by ALONE MD V²",
+          thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
+          sourceUrl: "https://github.com/Zokou1/ALONE-MD",
+          mediaType: 1,
+          renderLargerThumbnail: false,
+        },
+      },
+    }, { quoted: ms });
+  };
+
+  if (!arg[0]) return repondre("Please provide the song name.");
+
+  const query = arg.join(" ");
+  let lyricsData = null;
+
+  const sources = [
+    async () => {
+      const res = await axios.get(`https://api.popcat.xyz/lyrics?song=${encodeURIComponent(query)}`).catch(() => null);
+      if (!res || !res.data || !res.data.lyrics) throw new Error("Popcat failed");
+      return {
+        title: res.data.title,
+        author: res.data.artist,
+        lyrics: res.data.lyrics,
+        thumbnail: res.data.image,
+        link: res.data.url
+      };
+    },
+    async () => {
+      const res = await axios.get(`https://some-random-api.ml/lyrics?title=${encodeURIComponent(query)}`).catch(() => null);
+      if (!res || !res.data || !res.data.lyrics) throw new Error("Some-Random-API failed");
+      return {
+        title: res.data.title,
+        author: res.data.author || "Unknown",
+        lyrics: res.data.lyrics,
+        thumbnail: res.data.thumbnail?.genius,
+        link: res.data.links?.genius
+      };
+    },
+    async () => {
+      const res = await axios.get(`https://lyrist.vercel.app/api/${encodeURIComponent(query)}`).catch(() => null);
+      if (!res || !res.data || !res.data.content) throw new Error("Lyrist failed");
+      return {
+        title: query,
+        author: "Unknown",
+        lyrics: res.data.content,
+        thumbnail: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
+        link: "https://github.com/Zokou1/ALONE-MD"
+      };
+    }
+  ];
+
+  for (const fetchLyrics of sources) {
+    try {
+      const data = await fetchLyrics();
+      if (data && data.lyrics) {
+        lyricsData = data;
+        break;
+      }
+    } catch (err) {
+      console.log("Lyrics source failed:", err.message);
+    }
+  }
+
+  if (!lyricsData) return repondre("Couldn't find lyrics from any source. Try again with a different song title.");
+
+  const { title, author, lyrics, thumbnail, link } = lyricsData;
+  const message = `*🎵 Title:* ${title}\n*👤 Artist:* ${author}\n\n${lyrics.slice(0, 4096)}`;
+
+  await sock.sendMessage(jid, {
+    image: { url: thumbnail },
+    caption: message,
+    contextInfo: {
+      externalAdReply: {
+        title: title,
+        body: `By ${author}`,
+        mediaType: 1,
+        thumbnailUrl: thumbnail,
+        sourceUrl: link,
+        renderLargerThumbnail: false,
+      },
+    },
+  }, { quoted: ms });
+});
+
+
+zokou({
+  nomCom: "play",
+  aliases: ["song", "ytmp3", "audio", "mp3"],
+  categorie: "Search",
+  reaction: "⬇️",
+}, async (jid, sock, data) => {
+  const { arg, ms } = data;
+
+  const repondre = async (text) => {
+    await sock.sendMessage(jid, {
+      text,
+      contextInfo: {forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+              newsletterJid: '120363295141350550@newsletter',
+              newsletterName: 'ALONE Queen MD V²',
+              serverMessageId: 143},
+        externalAdReply: {
+          title: "♻️ ALONE MD AUDIO DOWNLOADER ♻️",
+          body: "Powered by ALONE MD V²",
+          thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
+          sourceUrl: "https://github.com/Zokou1/ALONE-MD",
+          mediaType: 1,
+          renderLargerThumbnail: false,
+          showAdAttribution: false,
+        },
+      },
+    }, { quoted: ms });
+  };
+
+  if (!arg[0]) return repondre("Please provide a Audio name.");
+  const query = arg.join(" ");
+
+  try {
+    const results = await ytSearch(query);
+    if (!results || !results.videos.length)
+      return repondre("No audio found for the specified query.");
+
+    const video = results.videos[0];
+    const videoUrl = video.url;
+    const title = video.title;
+
+    // Attempt to split title into artist and song
+    const [artist, songTitle] = title.includes(" - ") ? title.split(" - ", 2) : ["Unknown Artist", title];
+
+    await sock.sendMessage(jid, { text: "```Downloading....```" }, { quoted: ms });
+
+    const tryApi = async (url) => {
+      try {
+        const res = await axios.get(url);
+        return res.data;
+      } catch {
+        return { success: false };
+      }
+    };
+
+    let response =
+      await tryApi(`https://apis.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`)
+      || await tryApi(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`)
+      || await tryApi(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
+
+    if (!response.success) return repondre("All sources failed. Try again later.");
+
+    const { download_url, thumbnail } = response.result;
+
+    await sock.sendMessage(jid, {
+      audio: { url: download_url },
+      mimetype: "audio/mp4",
+      contextInfo: {
+        externalAdReply: {
+          title: "♻️ ALONE MD AUDIO DOWNLOADER ♻️",
+          body: `🎵 ${artist} - ${songTitle}`,
+          mediaType: 1,
+          thumbnailUrl: thumbnail,
+          sourceUrl: videoUrl,
+          renderLargerThumbnail: false,
+          showAdAttribution: false,
+          forwardingScore: 999,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363295141350550@newsletter',
+            newsletterName: 'ALONE  MD V²',
+            serverMessageId: 143
+          }
+        },
+      },
+    }, { quoted: ms });
+
+  } catch (err) {
+    console.error("Download Error:", err);
+    return repondre("Download failed: " + (err.message || err));
+  }
+});
