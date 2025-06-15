@@ -22,12 +22,12 @@ zokou(
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: "120363295141350550@newsletter",
-        newsletterName: "ALONE Queen MD V²",
+        newsletterName: "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
         serverMessageId: 143,
       },
       externalAdReply: {
         title: "Movie Finder",
-        body: "Powered by LEZKUSH",
+        body: "Powered by 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
         thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
         sourceUrl: "httpshttps://github.com/lezkush8/lezkush-bo",
         mediaType: 1,
@@ -119,12 +119,12 @@ zokou({
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363295141350550@newsletter",
-                newsletterName: "ALONE Queen MD V²",
+                newsletterName: "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
                 serverMessageId: 143,
               },
         externalAdReply: {
-          title: "lezkush MD VIDEO DOWNLOADER",
-          body: "Enjoy using ALONE MD",
+          title: "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 𝛁𝚰𝐃𝚵𝚯𝐒 DOWNLOADER",
+          body: "Enjoy using 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
           thumbnailUrl: conf.URL,
           mediaType: 1,
           renderLargerThumbnail: false,
@@ -148,7 +148,7 @@ zokou({
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363295141350550@newsletter",
-                newsletterName: "lezkush V²",
+                newsletterName: "𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
                 serverMessageId: 143,
               },
         externalAdReply: {
@@ -224,7 +224,7 @@ zokou({
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363295141350550@newsletter',
-            newsletterName: 'ALONE  MD V²',
+            newsletterName: '𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃',
             serverMessageId: 143
           }
         },
@@ -238,7 +238,7 @@ zokou({
 });
 
 zokou({
-  nomCom: "lyrics",
+  nomCom: "lyricso",
   aliases: ["ly", "songlyrics", "lyric"],
   categorie: "Search",
   reaction: "📝",
@@ -258,7 +258,7 @@ zokou({
         },
         externalAdReply: {
           title: "🎵 lezkush LYRICS FINDER",
-          body: "Powered by lezkush V²",
+          body: "Powered by 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
           thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
           sourceUrl: "https://github.com/lezkush8/lezkush-bot",
           mediaType: 1,
@@ -304,7 +304,7 @@ zokou({
         author: "Unknown",
         lyrics: res.data.content,
         thumbnail: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
-        link: "https://github.com/Zokou1/ALONE-MD"
+        link: "https://github.com/lezkush8/LEZKUSH-TMD1"
       };
     }
   ];
@@ -344,7 +344,7 @@ zokou({
 
 
 zokou({
-  nomCom: "playx",
+  nomCom: "play",
   aliases: ["song", "ytmp3", "audio", "mp3"],
   categorie: "Search",
   reaction: "⬇️",
@@ -358,13 +358,13 @@ zokou({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363295141350550@newsletter',
-              newsletterName: 'ALONE Queen MD V²',
+              newsletterName: '𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃',
               serverMessageId: 143},
         externalAdReply: {
-          title: "♻️ ALONE MD AUDIO DOWNLOADER ♻️",
-          body: "Powered by ALONE MD V²",
+          title: "♻️ 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 AUDIO DOWNLOADER ♻️",
+          body: "Powered by 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃",
           thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
-          sourceUrl: "https://github.com/Zokou1/ALONE-MD",
+          sourceUrl: "https://github.com/lezkush8/LEZKUSH-TMD1",
           mediaType: 1,
           renderLargerThumbnail: false,
           showAdAttribution: false,
@@ -413,7 +413,7 @@ zokou({
       mimetype: "audio/mp4",
       contextInfo: {
         externalAdReply: {
-          title: "♻️ ALONE MD AUDIO DOWNLOADER ♻️",
+          title: "♻️ 𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃 AUDIO DOWNLOADER ♻️",
           body: `🎵 ${artist} - ${songTitle}`,
           mediaType: 1,
           thumbnailUrl: thumbnail,
@@ -424,7 +424,7 @@ zokou({
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363295141350550@newsletter',
-            newsletterName: 'ALONE  MD V²',
+            newsletterName: '𝐋𝚵𝚭𝐊𝐔𝐒𝚮-𝚻𝚳𝐃',
             serverMessageId: 143
           }
         },
