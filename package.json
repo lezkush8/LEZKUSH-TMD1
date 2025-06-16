@@ -1,22 +1,22 @@
 {
-  "name": "Bmw-md",
+  "name": "TimnasaTech",
   "version": "2.0.0",
   "description": "",
-  "main": "ibrahim.js",
+  "main": "timnasa.js",
   "scripts": {
-    "test": "node ibrahim.js",
-    "s": "node ibrahim.js",
-    "toshtech": "pm2 start ibrahim.js --attach",
-    "toshtech": "pm2 start ibrahim.js --attach",
+    "test": "node timnasa.js",
+    "s": "node timnasa.js",
+    "toshtech": "pm2 start timnasa.js --attach",
+    "toshtech": "pm2 start timnasa.js --attach",
     "c": "tsc"
   },
   "keywords": [
     "bot",
     "Baileys",
-    "Bmw-md",
+    "TimnasaTech",
     "whatsapp",
     "whatsapp-bot",
-    "bmw-md-boy"
+    "TimnasaTech"
   ],
   "author": "Marisel",
 "license": "ISC",
