@@ -121,7 +121,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255784766591",
+      "value": "+96878856800",
       "required": false
     },
     "WARN_COUNT": {
