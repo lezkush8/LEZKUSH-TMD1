@@ -13,7 +13,7 @@ const sleep =  (ms) =>{
   } ;
 
 
-  zokou({ nomCom: "sticker", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "Teregramsticker", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
