@@ -1,9 +1,9 @@
-const { hango } = require("../framework/hango");
+const { zokou } = require("../framework/zokou");
 const { getJson } = require("../framework/utils");
 const axios = require("axios");
 
-hango({
-  nomCom: "movie",
+zokou({
+  nomCom: "igizo",
   desc: "Gives you info about movies",
   categorie: "fun",
 }, async (origineMessage, hn, context) => {
