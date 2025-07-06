@@ -38,11 +38,12 @@ const date = moment().format('DD/MM/YYYY');
 ❒───────────────────❒
 
 *GITHUB LINK*
-> https://github.com/lezkush8/lezkush-bot
+> https://github.com/Lezkushtech/LEZKUSH_TMD
 
-*CONTACT OWNER*
-> https://wa.me/96878856800
-
+*CONTACT OWNER LEZKUSH*
+> ★ https://wa.me/96878856800
+*second owner Timnasax*
+> ★ hhtps://wa.me/255784766591
 *WHATSAPP CHANNEL*
 >https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31
 ⁠
