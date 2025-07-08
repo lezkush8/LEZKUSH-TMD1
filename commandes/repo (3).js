@@ -38,7 +38,7 @@ const date = moment().format('DD/MM/YYYY');
 ❒───────────────────❒
 
 *GITHUB LINK*
-> https://github.com/Lezkushtech/LEZKUSH_TMD
+> https://github.com/lezkush8/LEZKUSH-TMD1
 
 *CONTACT OWNER LEZKUSH*
 > ★ https://wa.me/96878856800
